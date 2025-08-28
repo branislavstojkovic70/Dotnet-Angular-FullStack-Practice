@@ -4,6 +4,6 @@ namespace API.Models
 {
     public class UserModel : IdentityUser
     {
-        public string? myProperty { get; set; }
+        public string? FullName { get; set; }
     }
 }
