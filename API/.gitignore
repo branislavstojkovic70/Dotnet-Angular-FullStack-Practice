@@ -1,0 +1,196 @@
+##############################
+# OS / Editor junk
+##############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Common temp files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+~$*
+
+##############################
+# Visual Studio / Rider / VS Code
+##############################
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# VS Code (keep common project-level JSONs tracked)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+##############################
+# .NET / Build outputs
+##############################
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+artifacts/
+TestResult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+.vscode-test/
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# ASP.NET Scaffolding helper
+ScaffoldingReadMe.txt
+
+##############################
+# NuGet
+##############################
+*.nupkg
+*.snupkg
+# NuGet packages folder
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# NuGet v3 store (global cache)
+# (kept outside repo, but ignore just in case)
+.nuget/*
+!nuget.config
+
+##############################
+# Resharper / StyleCop / Sonar
+##############################
+_ReSharper*/
+*.[Rr]e[Ss]harper
+StyleCop.Cache
+.sonarqube/
+.scannerwork/
+
+##############################
+# Test frameworks
+##############################
+# MSTest
+*.testsettings
+*.vsmdi
+
+# NUnit
+TestResult.xml
+
+##############################
+# Azure / Functions
+##############################
+PublishScripts/
+local.settings.json
+
+##############################
+# Secrets / Config (local overrides)
+##############################
+# User secrets live outside repo, but ignore fallbacks if present
+secrets.json
+
+# AppSettings local overrides (safe pattern)
+appsettings.Local.json
+appsettings.*.Local.json
+appsettings.*.local.json
+appsettings.Development.local.json
+
+# Certificates / Keys
+*.pfx
+*.p12
+*.key
+*.cer
+*.pem
+
+##############################
+# Coverage / Reports
+##############################
+coverage/
+coverage.json
+lcov.info
+*.lcov
+.opencover.xml
+
+##############################
+# Paket / FAKE / Tools
+##############################
+.paket/
+paket-files/
+.fake/
+.dotnet/
+tools/**/obj/
+tools/**/bin/
+
+##############################
+# Database files
+##############################
+*.mdf
+*.ldf
+*.ndf
+
+##############################
+# Profiler / Diagnostics
+##############################
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+##############################
+# Publish profiles (often contain machine-specific settings)
+##############################
+**/Properties/PublishProfiles/*.pubxml
+**/Properties/PublishProfiles/*.pubxml.user
+
+##############################
+# SPA (if solution includes a client app)
+##############################
+# Node
+node_modules/
+**/node_modules/
+# Builds
+dist/
+build/
+wwwroot/node_modules/
+ClientApp/node_modules/
+ClientApp/dist/
+
+##############################
+# Misc
+##############################
+# Rider caches already covered; keep also generic cache dirs
+.cache/
+*.log
+logs/
+Logs/
+
+# Entity Framework: keep Migrations (do NOT ignore), only temp snapshots if any:
+# (No default ignores here on purpose)
